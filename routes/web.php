@@ -12,10 +12,10 @@
  */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('user.paginate');
 });
 
-Route::get('users', 'UserController@paginate');
+Route::get('users', 'UserController@paginate')->name('user.paginate');
 
 Auth::routes();
 

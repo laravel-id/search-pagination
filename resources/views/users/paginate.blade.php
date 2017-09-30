@@ -8,6 +8,22 @@
                 <div class="panel-heading">Users</div>
 
                 <div class="panel-body">
+
+                    <div class="row">
+                        <form action="{{ url()->current() }}">
+                            <div class="col-md-10">
+                                <input type="text" name="keyword" class="form-control" placeholder="Search name or email..." value="{{ request('keyword') }}">
+                            </div>
+                            <div class="col-md-2 text-right">
+                                <button type="submit" class="btn btn-primary">
+                                    Search
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <hr>
+
                     <div class="table-responsive">
                         <table class="table table-bordered">
                             <thead>
