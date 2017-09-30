@@ -4,6 +4,12 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
+
+            <div class="alert alert-info">
+                Tutorial mengenai demo aplikasi ini dapat dibaca di: <a href="https://www.laravel.web.id/2017/09/30/membuat-fitur-search-pagination/">Membuat Fitur Search + Pagination
+</a>.
+            </div>
+
             <div class="panel panel-default">
                 <div class="panel-heading">Users</div>
 
